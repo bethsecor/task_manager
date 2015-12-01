@@ -12,4 +12,10 @@ tasks:
 - id: 4
   title: Listen to ADELE
   description: HELLO FROM THE OUTSIDE
-total: 4
+- id: 6
+  title: Listen to more Adele
+  description: HELLO FROM THE OTHER SIDE...
+- id: 7
+  title: Sing!!!!!!!!
+  description: Adele perhaps?
+total: 7

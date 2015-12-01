@@ -1,5 +1,14 @@
-<a href="/tasks">Task Index</a>
+<!-- <a href="/tasks">Task Index</a> -->
 
-<h1><%= @task.title %></h1>
+<div class="row">
+<div class="col s3"><p></p></div>
+<div class="col s6">
+  <div class="card deep-purple lighten-2">
+    <div class="card-content white-text">
+      <span class="card-title"><%= @task.title %></span>
 
-<p><%= @task.description %></p>
+      <p><%= @task.description %></p>
+    </div>
+  </div>
+</div>
+</div>

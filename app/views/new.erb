@@ -1,14 +1,18 @@
-<form action="/tasks" method="post">
-  <h1>Enter a new task:</h1>
-  <label>
-    Title: <br/>
-    <input type='text' name='task[title]'/>
-  </label>
-  <label>
-    Description: <br/>
-    <textarea name='task[description]'></textarea>
-  </label>
-  <label>
-    <input type='submit'/>
-  </label>
+
+
+<div class="row">
+<div class="col s3"><p></p></div>
+<form action="/tasks" method="post" class="col s6">
+  <h4 class="center-align deep-purple-text lighten-2">Enter a new task:</h4><br/>
+  <div class="input-field">
+    <input type='text' name='task[title]' id="task_title"/>
+    <label for="task_title" class="active">Title</label>
+
+  </div>
+  <div class="input-field">
+    <textarea name='task[description]' id="textarea1" class="materialize-textarea"></textarea>
+    <label for="textarea1" class="active">Description</label>
+  </div>
+  <input type='submit' class="waves-effect waves-light btn"/>
 </form>
+</div>
