@@ -7,7 +7,7 @@
 
 <div class="collection">
 <% @tasks.each do |task| %>
-  <h5><a href="/tasks/<%= task.id %>" class="collection-item blue-grey-text darken-1"><%= task.id %>: <%= task.title %></a></h5>
+  <h5><a href="/tasks/<%= task.id %>" class="collection-item blue-grey-text darken-1"><%= task.id %>. <%= task.title %></a></h5>
 <% end %>
 </div>
 
