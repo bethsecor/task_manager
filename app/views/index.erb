@@ -1,15 +1,11 @@
-
-
 <div class="row">
-<div class="col s3"><p></p></div>
-<div class="col s6">
-<h4 class="center-align cyan-text text-darken-1">All Tasks</h4>
-
-<div class="collection">
-<% @tasks.each do |task| %>
-  <h5><a href="/tasks/<%= task.id %>" class="collection-item blue-grey-text darken-1"><%= task.id %>. <%= task.title %></a></h5>
-<% end %>
-</div>
-
-</div>
+  <div class="col s3"><p></p></div>
+  <div class="col s6">
+    <h4 class="center-align cyan-text text-darken-1">All Tasks</h4>
+    <div class="collection">
+    <% @tasks.each do |task| %>
+      <h5><a href="/tasks/<%= task.id %>" class="collection-item blue-grey-text darken-1"><%= task.id %>. <%= task.title %></a></h5>
+    <% end %>
+    </div>
+  </div>
 </div>

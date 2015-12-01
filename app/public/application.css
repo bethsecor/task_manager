@@ -18,6 +18,10 @@ label {
   padding-bottom: 30px;
 }
 
-#task_title, #description {
+#task_title {
+  font-size: 1.2em;
+}
+
+#textarea1 {
   font-size: 1.2em;
 }
