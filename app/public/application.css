@@ -1,11 +1,23 @@
-#river {
-  max-height: 300px;
-}
-
 body {
   background-image: url(/images/light_grey.png);
 }
 
+label {
+  font-size: 1.2em !important;
+}
+
 .collection {
   background-color: white;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+#dash-title {
+  padding-bottom: 30px;
+}
+
+#task_title, #description {
+  font-size: 1.2em;
 }
