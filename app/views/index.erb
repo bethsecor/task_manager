@@ -5,6 +5,11 @@
     <div class="collection">
     <% @tasks.each do |task| %>
       <h5><a href="/tasks/<%= task.id %>" class="collection-item blue-grey-text darken-1"><%= task.id %>. <%= task.title %></a></h5>
+      <a href="/tasks/<%= task.id %>/edit">Edit</a>
+      <form action="/tasks/<%= task.id %>" method="POST">
+        <input type="hidden" name="_method" value="DELETE">
+        <input type="submit" value="delete"/>
+      </form>
     <% end %>
     </div>
   </div>

@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col s3"><p></p></div>
+    <form action="/tasks/<%= @task.id %>" method="post" class="col s6">
+      <input type="hidden" name="_method" value="put">
+      <h4 class="center-align cyan-text text-darken-1">Edit your task:</h4><br/>
+      <div class="input-field">
+        <input type='text' name='task[title]' id="task_title" value='<%= @task.title %>'/>
+        <label for="task_title">Title:</label>
+      </div>
+      <div class="input-field">
+        <textarea name='task[description]' id="textarea1" class="materialize-textarea"><%= @task.description %></textarea>
+        <label for="textarea1">Description:</label>
+      </div>
+      <input type='submit' class="waves-effect waves-light btn blue-grey darken-1"/>
+    </form>
+  </div>
+</div>

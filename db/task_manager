@@ -2,10 +2,10 @@
 tasks:
 - id: 1
   title: Watch Doctor Who
-  description: Bow ties are cool.
+  description: Bow ties are cool. Super cool.
 - id: 2
   title: Eat more chocolate
-  description: Duh!
+  description: L.A. Burdick for the win!
 - id: 3
   title: Read a book
   description: Any book!
@@ -18,9 +18,6 @@ tasks:
 - id: 6
   title: Sing!!!!!!!!
   description: Adele perhaps?
-- id: 7
-  title: Get enough sleep
-  description: ZZZZZZs
 - id: 8
   title: POSTMAN!
   description: stuff. posting.
